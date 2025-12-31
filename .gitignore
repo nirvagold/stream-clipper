@@ -1,0 +1,35 @@
+# Dependencies
+node_modules
+
+# Build outputs
+/build
+/.svelte-kit
+/package
+
+# Rust/Tauri
+src-tauri/target
+src-tauri/Cargo.lock
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*.swo
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Logs
+*.log
+npm-debug.log*
+
+# License files (keep private)
+*.license.dat
+.license.dat
